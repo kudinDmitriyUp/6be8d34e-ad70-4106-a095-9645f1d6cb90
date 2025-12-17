@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -51,7 +51,7 @@ export default function LandingPage() {
           tag="Venture Capital"
           tagIcon={Sparkles}
           buttons={[
-            { text: "Join Our Portfolio", href: "#contact" },
+            { text: "Join Our Portfolio", href: "https://www.linkedin.com/company/joule-ventures" },
             { text: "View Strategy", href: "#strategy" }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34YrpHTNyoPHUh85bjA10KHfDge/uploaded-1766006672713-bb1sdg66.jpg"
@@ -321,7 +321,7 @@ export default function LandingPage() {
             {
               title: "Connect",
               items: [
-                { label: "LinkedIn", href: "#" },
+                { label: "LinkedIn", href: "https://www.linkedin.com/company/joule-ventures" },
                 { label: "Twitter", href: "#" },
                 { label: "Email", href: "mailto:hello@joulevc.com" }
               ]
